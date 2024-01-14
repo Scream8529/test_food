@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import style from "./search.module.scss";
+</script>
 
 <template>
-    <h1>My test search</h1>
+    <div :class="style.container">
+        <h1>My test search</h1>
+    </div>
 </template>
